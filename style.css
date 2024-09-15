@@ -27,17 +27,8 @@ header{
     align-items: center;
     z-index: 100;
 }
-.Fantasy-text{
-    font-family: "Marck Script", cursive;
-  font-weight: 500;
-  font-size: 7rem;
-  /* color: rgb(222, 250, 10); */
-  font-style: normal;
-}
-.desccc{
-    font-size: 1.5rem !important ; 
-    line-height: 3rem;
-}
+
+
 .logo{
     font-size: 2rem;
     color: #359381;
@@ -73,6 +64,13 @@ header{
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
+.Fantasy-text{
+    font-family: "Marck Script", cursive;
+  font-weight: 500;
+  font-size: 7rem;
+  /* color: rgb(222, 250, 10); */
+  font-style: normal;
+}
 
 .Parallax img{
     position:fixed;
@@ -98,4 +96,8 @@ header{
     font-size: 1rem;
     color: white;
     font-weight: 300;
+}
+.desccc{
+    font-size: 1.5rem !important ; 
+    line-height: 3rem;
 }

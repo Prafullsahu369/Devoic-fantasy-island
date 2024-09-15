@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Neonderthaw&family=Sacramento&family=Splash&display=swap');
+
+html,body{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: absolute;
+    font-family: 'poppins','sans-serif';
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0rem 7rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+}
+
+
+.logo{
+    font-size: 2rem;
+    color: #359381;
+    pointer-events: none;
+    margin-right:20rem ;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #359381;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    margin: 0 0.8rem;
+    font-weight: 600;
+    background-color: #fff;
+}
+
+.navigation a:hover,
+.navigation a.active{
+    background:#359381;
+    color: white;
+}
+.upper-sec{
+    height: 50% !important; 
+}
+.upper-sec img{
+    height: 60vh;
+    width: 100%;
+} 
