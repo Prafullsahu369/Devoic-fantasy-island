@@ -4,16 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="./feedback.css" />
   </head>
   <body>
     <header>
       <h2 class="logo">Logo</h2>
       <nav class="navigation">
-        <a href="#">Home</a>
+        <a href="/index.html">Home</a>
         <a href="#">Events</a>
-        <a href="#">About</a>
+        <a href="#about">About</a>
         <a href="./feedback/feedback.html" class="active">Feedback</a>
       </nav>
     </header>
@@ -21,33 +24,69 @@
     <div class="upper-sec">
       <img src="/assests/feeedback/359381.png" alt="" />
       <div class="form-container">
-        <div class="form-details">
+        <div class="form-bg">
+          <div class="form-details">
             <form action="#">
-                     <!-- Email Section -->
-              <label for="email">Email:</label><br>
-              <input type="email" id="email" name="email" required><br><br>
-                  
+              <!-- Email Section -->
+              <label for="email" class="label-effect">Email:</label><br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                class="dets"
+              /><br /><br />
+
               <!-- Contact Section -->
-              <label for="contact">Contact Number:</label><br>
-              <input type="" id="contact" name="contact" pattern="[0-9]{10}" required><br><br>
-                  
+              <label for="contact" class="label-effect">Contact Number:</label><br />
+              <input
+                type=""
+                id="contact"
+                name="contact"
+                pattern="[0-9]{10}"
+                required
+                class="dets"
+              /><br /><br />
+
               <!-- Message Section -->
-              <label for="message">Message:</label><br>
-              <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-                  
+              <label for="message" class="label-effect">Message:</label><br />
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                cols="50"
+                required
+                class="dets"
+              ></textarea
+              ><br /><br />
+
               <!-- Submit Button -->
               <button type="submit">Submit</button>
-                  </form>
-              </div>
-              <div class="contact-details">
-                <img src="/assests/feeedback/Full inbox-bro.png"  class="contact-img" alt="">
-                <div class="icon">
-                  <i class="fa-brands fa-facebook"></i>
-                  <i class="fa-brands fa-twitter"></i> 
-                  <i class="fa-brands fa-instagram"></i>
-                </div>
+            </form>
+          </div>
+        </div>
 
-              </div>
+        <div class="contact-details">
+          <h2 class="contact-details-heading">Contact Us</h2>
+          <img
+            src="/assests/feeedback/Full inbox-bro.png"
+            class="contact-img"
+            alt=""
+          />
+          <div class="con-dets">
+            <div class="contact-email"><h3>Email:</h3>
+              <p>Fantasy@mail.com</p></div>
+            <div class="contact-num"><h3>Contact Us:</h3>
+              <p>999889879</p></div>
+          </div>
+          
+         
+          <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
       </div>
     </div>
     <div class="lower-sec"></div>
