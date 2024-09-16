@@ -1,4 +1,4 @@
-/* Basic Reset */
+/* event css */
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
   
   body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f8ff;
+    background-color: #0f8973;
   }
   
   /* Navigation Bar */
@@ -36,7 +36,7 @@
   /* Explore Section */
   #explore-section {
     margin: 40px;
-    display: none; /* Initially hidden */
+    display: none; 
   }
   
   .event-grid {
