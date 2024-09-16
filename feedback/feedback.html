@@ -1,31 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./feedback.css">
-</head>
-<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./feedback.css" />
+  </head>
+  <body>
     <header>
-        <h2 class="logo">Logo</h2>
-        <nav class="navigation">
-            <a href="#" >Home</a>
-            <a href="#">Events</a>
-            <a href="#">About</a>
-            <a href="./feedback/feedback.html" class="active  ">Feedback</a>
-        </nav>
+      <h2 class="logo">Logo</h2>
+      <nav class="navigation">
+        <a href="#">Home</a>
+        <a href="#">Events</a>
+        <a href="#">About</a>
+        <a href="./feedback/feedback.html" class="active">Feedback</a>
+      </nav>
     </header>
-    
-    <div class="upper-sec">
-        <img src="./359381.png" alt="">
-        <div class="form-details">Hii</div>
-        <div class="contact-details"></div>
 
+    <div class="upper-sec">
+      <img src="/assests/feeedback/359381.png" alt="" />
+      <div class="form-container">
+        <div class="form-details">
+            <form action="#">
+                     <!-- Email Section -->
+              <label for="email">Email:</label><br>
+              <input type="email" id="email" name="email" required><br><br>
+                  
+              <!-- Contact Section -->
+              <label for="contact">Contact Number:</label><br>
+              <input type="" id="contact" name="contact" pattern="[0-9]{10}" required><br><br>
+                  
+              <!-- Message Section -->
+              <label for="message">Message:</label><br>
+              <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                  
+              <!-- Submit Button -->
+              <button type="submit">Submit</button>
+                  </form>
+              </div>
+              <div class="contact-details">
+                <img src="/assests/feeedback/Full inbox-bro.png"  class="contact-img" alt="">
+                <div class="icon">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-twitter"></i> 
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+
+              </div>
+      </div>
     </div>
     <div class="lower-sec"></div>
-    <form action="#">
-       
-    </form>
-</body>
+    <form action="#"></form>
+  </body>
 </html>

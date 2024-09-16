@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins','sans-serif';
+    scroll-behavior: smooth;
 }
 body{
     background: #f9f9f974;
@@ -82,7 +83,7 @@ header{
 
 .sec{
     position: relative;
-    background: rgb(0, 51, 41);
+    background: rgba(1, 81, 65, 0.885);
     padding: 7rem;
 }
 
