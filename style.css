@@ -16,6 +16,23 @@ body{
     overflow-x: hidden;
   overflow-y: scroll;
 }
+.offer-btn{
+    position:fixed;
+    top: 85%;
+    right: 20px;
+    z-index: 100;
+    background-color:white ;
+    opacity: 0.8;
+    border-radius: 50%;
+    box-shadow: 0 0 8px 0 white; 
+}
+.offer-btn:hover{
+    opacity: 1;
+}
+.offer-btn-ticket{
+    height: 80px;
+    width: 80px;
+}
 
 header{
     position: absolute;
