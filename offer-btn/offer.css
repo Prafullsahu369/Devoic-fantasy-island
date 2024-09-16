@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-/* event css */
-* {
-=======
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Neonderthaw&family=Sacramento&family=Splash&display=swap');
 
 *{
->>>>>>> 8a349f29be27682c72b9e790a54ac88db22bd47b
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,84 +11,12 @@
   
   body {
     font-family: 'Arial', sans-serif;
-<<<<<<< HEAD
-    background-color: #0f8973;
-=======
     background-color: #f0f8ff;
     overflow-x: hidden;
-    overflow-y: scroll;
->>>>>>> 8a349f29be27682c72b9e790a54ac88db22bd47b
+  /* overflow-y:hidden; */
   }
   
   
-<<<<<<< HEAD
-  nav ul li {
-    list-style: none;
-    margin: 0 20px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  
-  nav ul li a:hover {
-    color: #ffd700;
-  }
-  
-  /* Explore Section */
-  #explore-section {
-    margin: 40px;
-    display: none; 
-  }
-  
-  .event-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  
-  .event-card {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 30%;
-    margin: 20px 0;
-    text-align: center;
-    transition: transform 0.3s;
-    padding: 20px;
-    position: relative;
-  }
-  
-  .event-card:hover {
-    transform: scale(1.05); /* Zoom in on hover */
-  }
-  
-  .event-img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
-  .event-details {
-    display: none; /* Hidden until button is clicked */
-    padding-top: 10px;
-  }
-  
-  button {
-    background-color: #ffd700;
-    color: #333;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #ffcc00;
-  }
-=======
 header{
   /* position: absolute; */
   top: 0;
@@ -130,24 +53,6 @@ header{
   color: white;
 }
 
-.offer-btn{
-  position:fixed;
-  top: 85%;
-  right: 20px;
-  z-index: 100;
-  background-color:white ;
-  opacity: 0.8;
-  border-radius: 50%;
-  box-shadow: 0 0 8px 0 #359381; 
-  border: 1px solid #359381;
-}
-.offer-btn:hover{
-  opacity: 1;
-}
-.offer-btn-ticket{
-  height: 80px;
-  width: 80px;
-}
  
 /* Explore Section */
 #explore-section {
@@ -174,18 +79,20 @@ header{
   width: 30%;
   margin: 20px 0;
   text-align: center;
-  transition: transform 0.3s;
+  transition: transform 0.3s ease-in-out;
   padding: 20px;
   position: relative;
 }
 
 .event-card:hover {
-  transform: scale(1.05); /* Zoom in on hover */
+  transform: scale(1.1); /* Zoom in on hover */
+  box-shadow: 2px 2px 8px 4px #359381; 
+  border: 1px solid #359381;
 }
 
 .event-img {
   width: 100%;
-  height: auto;
+  height: 350px;
   border-radius: 10px;
 }
 
@@ -206,7 +113,6 @@ button {
 button:hover {
   background-color: #ffcc00;
 }
->>>>>>> 8a349f29be27682c72b9e790a54ac88db22bd47b
   
   /* Media Queries for Responsive Design */
   @media (max-width: 768px) {
