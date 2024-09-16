@@ -13,7 +13,7 @@
     font-family: 'Arial', sans-serif;
     background-color: #f0f8ff;
     overflow-x: hidden;
-    overflow-y: scroll;
+  /* overflow-y:hidden; */
   }
   
   
@@ -53,24 +53,6 @@ header{
   color: white;
 }
 
-.offer-btn{
-  position:fixed;
-  top: 85%;
-  right: 20px;
-  z-index: 100;
-  background-color:white ;
-  opacity: 0.8;
-  border-radius: 50%;
-  box-shadow: 0 0 8px 0 #359381; 
-  border: 1px solid #359381;
-}
-.offer-btn:hover{
-  opacity: 1;
-}
-.offer-btn-ticket{
-  height: 80px;
-  width: 80px;
-}
  
 /* Explore Section */
 #explore-section {
@@ -97,18 +79,20 @@ header{
   width: 30%;
   margin: 20px 0;
   text-align: center;
-  transition: transform 0.3s;
+  transition: transform 0.3s ease-in-out;
   padding: 20px;
   position: relative;
 }
 
 .event-card:hover {
-  transform: scale(1.05); /* Zoom in on hover */
+  transform: scale(1.1); /* Zoom in on hover */
+  box-shadow: 2px 2px 8px 4px #359381; 
+  border: 1px solid #359381;
 }
 
 .event-img {
   width: 100%;
-  height: auto;
+  height: 350px;
   border-radius: 10px;
 }
 
