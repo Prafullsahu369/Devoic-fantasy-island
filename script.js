@@ -14,3 +14,21 @@ window.addEventListener('scroll',()=>{
     hill1.style.top=value*1+'px';
     
 });
+
+
+function getRandomColor() {
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+
+function changeTextColor() {
+    const textElement = document.getElementById('main-text');
+    textElement.style.color = getRandomColor();
+}
+
+// Change text color every second
+setInterval(changeTextColor, 1000);
