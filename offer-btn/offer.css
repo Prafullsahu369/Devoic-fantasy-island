@@ -73,7 +73,7 @@ header{
 }
 
 .event-card {
-  background-color: #fff;
+  background-color: aliceblue;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 30%;
@@ -83,9 +83,33 @@ header{
   padding: 20px;
   position: relative;
 }
+.event-card h3{
+  margin: 0.8rem;
+  margin-top: 1.5rem;
+  opacity: 0.8;
+  font-weight: 600;
+}
+.event-card h5{
+  color: #359381;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 1rem;
+}
+.cross{
+  text-decoration: black solid line-through;
+  opacity: 0.7;
+  font-size: 1.5rem;
+}
+.cross-offer{
+  font-size: 1.5rem;
+  font-weight: 600;
+  opacity: 0.9;
+  margin: -0.8rem;
+  /* background-color: #222222; */
+}
 
 .event-card:hover {
-  transform: scale(1.1); /* Zoom in on hover */
+  transform: scale(1.01);
   box-shadow: 2px 2px 8px 4px #359381; 
   border: 1px solid #359381;
 }
@@ -97,22 +121,10 @@ header{
 }
 
 .event-details {
-  display: none; /* Hidden until button is clicked */
   padding-top: 10px;
 }
 
-button {
-  background-color: #ffd700;
-  color: #333;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
 
-button:hover {
-  background-color: #ffcc00;
-}
   
   /* Media Queries for Responsive Design */
   @media (max-width: 768px) {
