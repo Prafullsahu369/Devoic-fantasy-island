@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Neonderthaw&family=Sacramento&family=Splash&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
@@ -14,13 +13,13 @@ body{
     min-height: 100vh;
     /* overflow:visible; */
     overflow-x: hidden;
-  overflow-y: scroll;
+    overflow-y: scroll;
 }
 .offer-btn{
     position:fixed;
     top: 85%;
     right: 20px;
-    z-index: 100;
+    z-index: 99;
     background-color:white ;
     opacity: 0.8;
     border-radius: 50%;
@@ -52,6 +51,7 @@ header{
     color: #359381;
     pointer-events: none;
     margin-right:20rem ;
+    /* background-color: #fb774b; */
 }
 
 .navigation a{
@@ -104,6 +104,7 @@ header{
     padding: 7rem;
     display: flex;
     flex-direction: column;
+    margin-bottom: -48px;
 }
 
 .sec h2{
@@ -160,3 +161,68 @@ header{
     margin: 1rem;
     border-radius: 50%;
 }
+
+/* footer */
+/* Footer Styling */
+
+
+footer{
+  background-color: #222222;
+  background: url("https://cdn.vectorstock.com/i/500p/25/66/sea-sharks-sunken-ship-and-fishes-in-underwater-vector-48662566.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: 100% 100%;
+  z-index: 10;
+  position:absolute;
+  width: 100%;
+  padding: 5rem;
+  /* margin-top: -48rem; */
+  /* display: flex; */
+
+}
+.fan-img{
+    height: 100px;
+    width: 100px;
+}
+footer h5{
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+footer li{
+  padding: 4px;
+}
+footer li a{
+  font-size: 0.8rem;
+  color: #fff;
+}
+footer li a:hover{
+  color: #fff;
+}
+footer p{
+  /* color: #999; */
+  font-weight: 400;
+  color: #ffffffd4;
+}
+.text-uppercase{
+    color: aliceblue;
+    font-weight: 600;
+}
+footer .copyright i{
+  color: #1d1d1d;
+  width: 38px;
+  height: 38px;
+  background-color: white;
+  display: inline-block;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+  transition: 0.3s ease;
+  margin: 0 5px;
+}
+footer .copyright i:hover{
+  color:#fff;
+  background-color: #fb774b;
+}
+.copy-text{color: #fff;}
+
