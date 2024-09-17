@@ -1,118 +1,39 @@
-<<<<<<< HEAD
-/* event css */
-* {
-=======
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Neonderthaw&family=Sacramento&family=Splash&display=swap');
 
-*{
->>>>>>> 8a349f29be27682c72b9e790a54ac88db22bd47b
+body,html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins','sans-serif';
     scroll-behavior: smooth;
+    overflow-x:hidden;
+    /* overflow-y:hidden; */
 }
-  
-  body {
-    font-family: 'Arial', sans-serif;
-<<<<<<< HEAD
-    background-color: #0f8973;
-=======
-    background-color: #f0f8ff;
-    overflow-x: hidden;
-    overflow-y: scroll;
->>>>>>> 8a349f29be27682c72b9e790a54ac88db22bd47b
-  }
-  
-  
-<<<<<<< HEAD
-  nav ul li {
-    list-style: none;
-    margin: 0 20px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  
-  nav ul li a:hover {
-    color: #ffd700;
-  }
-  
-  /* Explore Section */
-  #explore-section {
-    margin: 40px;
-    display: none; 
-  }
-  
-  .event-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  
-  .event-card {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 30%;
-    margin: 20px 0;
-    text-align: center;
-    transition: transform 0.3s;
-    padding: 20px;
-    position: relative;
-  }
-  
-  .event-card:hover {
-    transform: scale(1.05); /* Zoom in on hover */
-  }
-  
-  .event-img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
-  .event-details {
-    display: none; /* Hidden until button is clicked */
-    padding-top: 10px;
-  }
-  
-  button {
-    background-color: #ffd700;
-    color: #333;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #ffcc00;
-  }
-=======
 header{
-  /* position: absolute; */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100px;
-  padding: 2rem 7rem;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  /* z-index: 100; */
+    position: absolute;
+    font-family: 'poppins','sans-serif';
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0rem 7rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
 }
-
 
 .logo{
   font-size: 2rem;
   color: #359381;
   pointer-events: none;
   margin-right:20rem ;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navigation a{
@@ -122,6 +43,7 @@ header{
   border-radius: 20px;
   margin: 0 0.8rem;
   font-weight: 600;
+  background-color: #fff;
 }
 
 .navigation a:hover,
@@ -129,7 +51,6 @@ header{
   background:#359381;
   color: white;
 }
-
 .offer-btn{
   position:fixed;
   top: 85%;
@@ -152,6 +73,7 @@ header{
 /* Explore Section */
 #explore-section {
   margin: 30px;
+  margin-top: 10rem;
   /* display: none; */
 }
 #explore-section h2{
@@ -177,10 +99,15 @@ header{
   transition: transform 0.3s;
   padding: 20px;
   position: relative;
+  border: 0.5px double #359381; 
+  transform: scale(0.9);
+
 }
 
 .event-card:hover {
-  transform: scale(1.05); /* Zoom in on hover */
+  transform: scale(1.02);
+  box-shadow: 2px 2px 10px 5px #359381; 
+    border: 2px solid #359381; 
 }
 
 .event-img {
@@ -190,7 +117,6 @@ header{
 }
 
 .event-details {
-  display: none; /* Hidden until button is clicked */
   padding-top: 10px;
 }
 
@@ -206,7 +132,7 @@ button {
 button:hover {
   background-color: #ffcc00;
 }
->>>>>>> 8a349f29be27682c72b9e790a54ac88db22bd47b
+
   
   /* Media Queries for Responsive Design */
   @media (max-width: 768px) {
