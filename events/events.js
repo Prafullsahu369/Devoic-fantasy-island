@@ -1,9 +1,9 @@
 // When the Explore button is clicked, show the Explore section
-document.getElementById('explore-btn').addEventListener('click', function() {
-    const exploreSection = document.getElementById('explore-section');
-    exploreSection.classList.remove('hidden'); // Show the section
-    exploreSection.style.display = 'block'; // Ensure it is visible
-  });
+// document.getElementById('explore-btn').addEventListener('click', function() {
+//     const exploreSection = document.getElementById('explore-section');
+//     exploreSection.classList.remove('hidden'); // Show the section
+//     exploreSection.style.display = 'block'; // Ensure it is visible
+//   });
   
   // Show More Details Toggle Logic
   const detailButtons = document.querySelectorAll('.details-btn');

@@ -14,6 +14,9 @@
     background-color: #f0f8ff;
     overflow-x: hidden;
   /* overflow-y:hidden; */
+  background: url("https://static.vecteezy.com/system/resources/previews/034/496/221/non_2x/amusement-park-at-night-with-colorful-ferris-wheel-and-people-state-fair-carnival-midway-games-rides-ferris-wheel-ai-generated-free-photo.jpg");
+  object-fit:contain;
+  /* background-repeat: no-repeat; */
   }
   
   
@@ -60,10 +63,12 @@ header{
   /* display: none; */
 }
 #explore-section h2{
-  color: #359381;
-  height: 2rem;
-  margin-left: 42.5%;
-  margin-bottom: 10px;
+  /* color: #359381; */
+  color: #f0f8ff;
+  height: 7rem;
+  margin: 2%;
+  font-weight: 900;
+  /* margin-bottom: 10px; */
 }
 
 .event-grid {
@@ -109,7 +114,7 @@ header{
 }
 
 .event-card:hover {
-  transform: scale(1.01);
+  transform: scale(1.07);
   box-shadow: 2px 2px 8px 4px #359381; 
   border: 1px solid #359381;
 }

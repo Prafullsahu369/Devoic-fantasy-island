@@ -8,12 +8,20 @@ body,html{
     font-family: 'poppins','sans-serif';
     scroll-behavior: smooth;
     overflow-x:hidden;
+    
+    object-position: 500px 100%;
+    /* object-position: 0%;
     /* overflow-y:hidden; */
+    
 }
+/* .quest{
+  position: absolute;
+  z-index: 111;
+} */
 header{
     position: absolute;
     font-family: 'poppins','sans-serif';
-    background-color: #fff;
+    background:url("https://static.vecteezy.com/system/resources/previews/008/130/445/large_2x/cyan-colored-crumpled-paper-texture-background-for-design-decorative-free-photo.jpg");   
     top: 0;
     left: 0;
     width: 100%;
@@ -72,15 +80,19 @@ nav{
  
 /* Explore Section */
 #explore-section {
-  margin: 30px;
-  margin-top: 10rem;
+  /* margin: 30px; */
+  margin-top: 6.8rem;
+   /* background-color: #fb774b; */
+   background: url("https://img.freepik.com/premium-vector/amusement-park-with-funfair-attractions-carnival-fairground-rides-cartoon-circus-tent-children-castle-rollercoaster-vector-illustration_461812-839.jpg");
+    object-fit:cover;
+    /* background-repeat:no-repeat; */
   /* display: none; */
 }
 #explore-section h2{
   color: #359381;
   height: 2rem;
   margin-left: 42.5%;
-  margin-bottom: 10px;
+  padding: 10px;
 }
 
 .event-grid {
@@ -99,15 +111,15 @@ nav{
   transition: transform 0.3s;
   padding: 20px;
   position: relative;
-  border: 0.5px double #359381; 
+  border: 0.5px double #FFAAAA; 
   transform: scale(0.9);
 
 }
 
 .event-card:hover {
   transform: scale(1.02);
-  box-shadow: 2px 2px 10px 5px #359381; 
-    border: 2px solid #359381; 
+  /* box-shadow: 2px 2px 10px 5px #359381;  */
+    border: 2px solid #FFAAAA; 
 }
 
 .event-img {
@@ -159,7 +171,8 @@ footer{
   position:absolute;
   width: 100%;
   padding: 5rem;
-  /* margin-top: -48rem; */
+  /* margin-top: -48px;
+  padding-top: -48px; */
   /* display: flex; */
 
 }
